@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
@@ -9,5 +9,10 @@
 </head>
 
 <body bgcolor="black" text="white">
+  <br></br>
+    <img src="Photos/communicator.png" align="left" width="70"/>
+
+    <h1 style="font-family:Impact">Bedecked in Trek</h1>
+    <hr />
 </body>
 </html>
