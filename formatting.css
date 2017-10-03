@@ -1,15 +1,7 @@
 /* CSS Document */
-.banner {
-	background: url(/Photos/star-trek-banner.jpg) fixed 100% 100% no-repeat;
-	width: 100%;
-	height: 500px;
-	margin:7px auto;
-	text-align: center;
-}
+
 body {
-	background-image: url(Photos/space.jpg) 
-	
-	 
+	background-image: url(Photos/space.jpg) 	 
 }
 h1 {
 	color:white;
@@ -19,7 +11,7 @@ h1 {
 	font-family:Impact;
 	background-image: url(Photos/warp.jpg);
 	background-color: rgba(70, 40, 108, 0.4)100%;
-    background: rgba(70, 40, 108, 0.4);
+        background: rgba(70, 40, 108, 0.4);
 	border: #16769E medium;
 }
 h2 {
@@ -29,7 +21,6 @@ h2 {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-weight: 900;
 	font-style: oblique;
-	
 }
 p {
 	color: white;
@@ -57,18 +48,11 @@ ul {
 	   color: white;
 	   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	   background-color: rgba(70, 40, 108, 0.4);
-       background: rgba(70, 40, 108, 0.4);
+           background: rgba(70, 40, 108, 0.4);
 	   border: #342260, thick;
-	   border-width: thick;
-	   
+	   border-width: thick; 
 }
-    td {
-       padding-left: 8px;
-       padding-right: 8px;
-	   padding-bottom: 8px;
-	   padding-top: 5px;
-	   vertical-align: text-top;
-    }
+  
 tr.price {
 	text-align: left;
 	font-weight: 900;
