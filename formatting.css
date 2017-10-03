@@ -43,14 +43,11 @@ ul {
 	margin: 0px;
 }
  table {
-       margin: 5px;
-       width: 100%;
+     
 	   color: white;
 	   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	   background-color: rgba(70, 40, 108, 0.4);
            background: rgba(70, 40, 108, 0.4);
-	   border: #342260, thick;
-	   border-width: thick; 
 }
   
 tr.price {
