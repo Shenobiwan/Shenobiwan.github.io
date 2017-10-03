@@ -1,0 +1,86 @@
+/* CSS Document */
+.banner {
+	background: url(/Photos/star-trek-banner.jpg) fixed 100% 100% no-repeat;
+	width: 100%;
+	height: 500px;
+	margin:7px auto;
+	text-align: center;
+}
+body {
+	background-image: url(Photos/space.jpg) 
+	
+	 
+}
+h1 {
+	color:white;
+	height: 50px;
+	margin: 12px;
+	text-align: center;
+	font-family:Impact;
+	background-image: url(Photos/warp.jpg);
+	background-color: rgba(70, 40, 108, 0.4)100%;
+    background: rgba(70, 40, 108, 0.4);
+	border: #16769E medium;
+}
+h2 {
+	color: white;
+	margin: 12px;
+	text-align: left;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 900;
+	font-style: oblique;
+	
+}
+p {
+	color: white;
+	margin: 12px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+ul {
+	color: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+.badge {
+	background: url(Photos/TNGbadge1.png) no-repeat left top;
+	height: 45px;
+	padding-left: 50px;
+	padding-top: 20px;
+}
+.nobullet {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+ table {
+       margin: 5px;
+       width: 100%;
+	   color: white;
+	   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	   background-color: rgba(70, 40, 108, 0.4);
+       background: rgba(70, 40, 108, 0.4);
+	   border: #342260, thick;
+	   border-width: thick;
+	   
+}
+    td {
+       padding-left: 8px;
+       padding-right: 8px;
+	   padding-bottom: 8px;
+	   padding-top: 5px;
+	   vertical-align: text-top;
+    }
+tr.price {
+	text-align: left;
+	font-weight: 900;
+	
+}
+fieldset {
+ padding-left: 380px;	
+ display: grid;
+ width: 900px;
+	height:auto;
+ ;
+}
+.buttons {
+	color: black;
+}
