@@ -51,6 +51,7 @@ ul {
 }
  table {
        margin: 5px;
+	   margin-top: 0px;
        width: 100%;
 	   color: white;
 	   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
@@ -63,8 +64,7 @@ ul {
     td {
        padding-left: 8px;
        padding-right: 8px;
-	  
-	   padding-top: 5px;	
+	   padding-top: 0px;	
 	   vertical-align: top;
 		table-layout: auto;
 		border-collapse: collapse;
@@ -110,4 +110,9 @@ a:active {
 
 .fix {
 	padding-left: 380px;
+}
+img {
+	
+	border-radius: 10px;
+	padding-right: 10px;
 }
