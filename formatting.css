@@ -87,3 +87,12 @@ fieldset {
 .buttons {
 	color: black;
 }
+a:hover {
+    background-color: darkorchid;
+}
+
+a:active {
+    background-color: mediumpurple;
+} 
+
+	
