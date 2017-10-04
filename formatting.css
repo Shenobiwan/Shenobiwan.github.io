@@ -87,6 +87,18 @@ fieldset {
 .buttons {
 	color: black;
 }
+a:link {
+    background-color: black;
+	color:darkslateblue;
+	text-decoration: none;
+}
+
+a:visited {
+	font: small-caps;
+    background-color: black;
+	color: darkorchid;
+}
+
 a:hover {
     background-color: darkorchid;
 }
@@ -94,5 +106,4 @@ a:hover {
 a:active {
     background-color: mediumpurple;
 } 
-
 	
