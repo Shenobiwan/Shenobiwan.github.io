@@ -89,7 +89,7 @@ fieldset {
 }
 a:link {
     background-color: black;
-	color:darkslateblue;
+	color: darkturquoise;
 	text-decoration: none;
 }
 
@@ -100,10 +100,9 @@ a:visited {
 }
 
 a:hover {
-    background-color: darkorchid;
+    background-color:lightgreen;
 }
 
 a:active {
-    background-color: mediumpurple;
+    background-color: paleturquoise;
 } 
-	
