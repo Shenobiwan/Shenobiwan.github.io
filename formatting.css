@@ -78,10 +78,11 @@ tr.price {
 	
 }
 fieldset {
- padding-left: 380px;	
+ padding-left: 20px;	
  display: grid;
  width: 900px;
-	height:auto;
+ height:auto;
+ border: hidden;
  ;
 }
 .buttons {
@@ -106,3 +107,7 @@ a:hover {
 a:active {
     background-color: paleturquoise;
 } 
+
+.fix {
+	padding-left: 380px;
+}
