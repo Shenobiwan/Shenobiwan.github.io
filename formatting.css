@@ -87,6 +87,11 @@ li a {
 	   border: 10px solid #6908A2;
 	   border-width: thick; 
 }
+.fixed-ratio-resize {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
     td {
        padding-left: 8px;
        padding-right: 8px;
