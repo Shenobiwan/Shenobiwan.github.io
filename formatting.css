@@ -86,9 +86,7 @@ li a {
 	height: auto;
 	width: auto;
 }
-.responsive-table {
-	overflow-x:auto;
-}
+
     td {
        padding-left: 8px;
        padding-right: 8px;
