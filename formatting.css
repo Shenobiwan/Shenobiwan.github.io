@@ -50,8 +50,6 @@ ul {
 }
 .nobullet {
 	font-family: impact;
-	border-top-style: solid;
-	border-color: rebeccapurple;
 	font-size: 25px;
 	padding-left: 35px;
 	list-style-type: none;
