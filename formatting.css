@@ -12,10 +12,7 @@ body {
 .menu {
 	font-stretch: extra-expanded;
 	background-color: rgba(70, 40, 108, 0.4);
-        background: rgba(70, 40, 108, 0.4);
-	border-style: ridge;
-	border-bottom-color: darkslateblue;
-	border-color:rebeccapurple;	
+        background: rgba(70, 40, 108, 0.4);	
 }
 h1 {
 	color:white;
