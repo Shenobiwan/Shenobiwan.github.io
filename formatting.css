@@ -12,7 +12,7 @@ body {
 .menu {
 	font-stretch: extra-expanded;
 	background-color: rgba(70, 40, 108, 0.4);
-    background: rgba(70, 40, 108, 0.4);
+        background: rgba(70, 40, 108, 0.4);
 	border-style: ridge;
 	border-bottom-color: darkslateblue;
 	border-color:rebeccapurple;	
@@ -62,30 +62,29 @@ ul {
 	margin: 0px;
 	overflow: hidden;
 	background-color: rgba(70, 40, 112, 0.4);
-    background: rgba(100, 80, 112, 0.4);
+        background: rgba(100, 80, 112, 0.4);
 	background-blend-mode:hard-light;
 }
 li {
-    float: left;
+        float: left;
 	margin-left: 2%;
 	margin-right: 5%;
 }
 
 li a {
 	font-stretch: ultra-expanded;
-    display: block;
-    padding: px;
+        display: block;
 }
  table {
        margin: 5px;
-	   margin-top: 0px;
+       margin-top: 0px;
        width: 100%;
-	   color: white;
-	   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	   background-color: rgba(70, 40, 108, 0.4);
+       color: white;
+       font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+       background-color: rgba(70, 40, 108, 0.4);
        background: rgba(70, 40, 108, 0.4);
-	   border: 10px solid #6908A2;
-	   border-width: thick; 
+       border: 10px solid #6908A2;
+       border-width: thick; 
 }
 .fixed-ratio-resize {
 	max-width: 100%;
@@ -98,23 +97,23 @@ li a {
     td {
        padding-left: 8px;
        padding-right: 8px;
-	   padding-top: 0px;	
-	   vertical-align: top;
-	   table-layout: auto;
-	   border-collapse: collapse;
-	   white-space: pre-line;
-	   max-width: 300px;
+       padding-top: 0px;	
+       vertical-align: top;
+       table-layout: auto;
+       border-collapse: collapse;
+       white-space: pre-line;
+       max-width: 300px;
     }
 tr.price {
 	text-align: left;
 	font-weight: 900;	
 }
 fieldset {
- padding-left: 20px;	
- display: grid;
- width: 900px;
- height:auto;
- border: hidden;
+ 	padding-left: 20px;	
+ 	display: grid;
+	width: 900px;
+ 	height:auto;
+ 	border: hidden;
 }
 .buttons {
 	color: black;
@@ -128,11 +127,11 @@ a:visited {
 	color:ivory;
 }
 a:hover {
-    background-color: transparent;
+    	background-color: transparent;
 }
 a:active {
-    background-color: rgba(70, 40, 108, 0.4);
-    background: rgba(70, 40, 108, 0.4);
+    	background-color: rgba(70, 40, 108, 0.4);
+    	background: rgba(70, 40, 108, 0.4);
 } 
 
 .fix {
