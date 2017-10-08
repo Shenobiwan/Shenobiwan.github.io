@@ -19,10 +19,12 @@ h1 {
 	height: 50px;
 	margin: 12px;
 	text-align: center;
-	font-family:Trek;
+	font-family: "Star Trek", Arial, "sans-serif";
 	font-size: 50px;
+	font-weight:normal;
+        font-style:normal;
 	justify-content: center;
-	font-stretch: ultra-expanded;
+	
 }
 h2 {
 	color: white;
@@ -36,7 +38,7 @@ h2 {
 p {
 	color: white;
 	margin: 12px;
-	font-family: "Star Trek";
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 ul {
 	color: white;
