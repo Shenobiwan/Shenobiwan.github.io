@@ -67,7 +67,8 @@ ul {
 }
 li {
     float: left;
-	margin-left: 160px;
+	margin-left: 5.2%;
+	margin-right: 5%;
 }
 
 li a {
