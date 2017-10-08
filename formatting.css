@@ -19,7 +19,7 @@ h1 {
 	height: 50px;
 	margin: 12px;
 	text-align: center;
-	font-family:Impact;
+	font-family:Trek;
 	font-size: 50px;
 	justify-content: center;
 	font-stretch: ultra-expanded;
@@ -148,4 +148,8 @@ img {
 .communicator {
 	margin-top: 12px;
 	margin-bottom: 12px;
+}
+@font-face {
+	font-family: 'Trek';
+	src: url(https://Shenobiwan.github/Trek Fronts/DINTrek.ttf);
 }
