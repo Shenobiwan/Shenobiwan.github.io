@@ -9,16 +9,23 @@
 body {
 	background-image: url(Photos/space.jpg)  
 }
+.menu {
+	font-stretch: extra-expanded;
+	background-color: rgba(70, 40, 108, 0.4);
+    background: rgba(70, 40, 108, 0.4);
+	border-style: ridge;
+	border-bottom-color: darkslateblue;
+	border-color:rebeccapurple;	
+}
 h1 {
 	color:white;
 	height: 50px;
 	margin: 12px;
 	text-align: center;
 	font-family:Impact;
-	background-image: url(Photos/warp.jpg);
-	background-color: rgba(70, 40, 108, 0.4)100%;
-    background: rgba(70, 40, 108, 0.4);
-	border: #16769E medium;
+	font-size: 50px;
+	justify-content: center;
+	font-stretch: ultra-expanded;
 }
 h2 {
 	color: white;
@@ -42,12 +49,31 @@ ul {
 	background: url(Photos/TNGbadge1.png) no-repeat left top;
 	height: 45px;
 	padding-left: 50px;
-	padding-top: 20px;
+	padding-top: 15px;
 }
 .nobullet {
+	font-family: impact;
+	border-top-style: solid;
+	border-color: rebeccapurple;
+	font-size: 25px;
+	padding-left: 35px;
 	list-style-type: none;
 	padding: 0px;
 	margin: 0px;
+	overflow: hidden;
+	background-color: rgba(70, 40, 112, 0.4);
+    background: rgba(100, 80, 112, 0.4);
+	background-blend-mode:hard-light;
+}
+li {
+    float: left;
+	margin-left: 230px;
+}
+
+li a {
+	font-stretch: ultra-expanded;
+    display: block;
+    padding: px;
 }
  table {
        margin: 5px;
@@ -58,24 +84,21 @@ ul {
 	   background-color: rgba(70, 40, 108, 0.4);
        background: rgba(70, 40, 108, 0.4);
 	   border: 10px solid #6908A2;
-	   border-width: thick;
-	   
+	   border-width: thick; 
 }
     td {
        padding-left: 8px;
        padding-right: 8px;
 	   padding-top: 0px;	
 	   vertical-align: top;
-		table-layout: auto;
-		border-collapse: collapse;
-		white-space: pre-line;
-		max-width: 300px;
+	   table-layout: auto;
+	   border-collapse: collapse;
+	   white-space: pre-line;
+	   max-width: 300px;
     }
 tr.price {
 	text-align: left;
-	font-weight: 900;
-	
-	
+	font-weight: 900;	
 }
 fieldset {
  padding-left: 20px;	
@@ -83,36 +106,38 @@ fieldset {
  width: 900px;
  height:auto;
  border: hidden;
- ;
 }
 .buttons {
 	color: black;
 }
 a:link {
-    background-color: black;
 	color: darkturquoise;
 	text-decoration: none;
 }
-
 a:visited {
 	font: small-caps;
-    background-color: black;
-	color: darkorchid;
+	color:ivory;
 }
-
 a:hover {
-    background-color:lightgreen;
+    background-color: transparent;
 }
-
 a:active {
-    background-color: paleturquoise;
+    background-color: rgba(70, 40, 108, 0.4);
+    background: rgba(70, 40, 108, 0.4);
 } 
 
 .fix {
 	padding-left: 380px;
 }
 img {
-	
-	border-radius: 10px;
-	padding-right: 10px;
+	margin-right: 10px;
+	border-radius: 10px;	
+}
+.sevenofnine {
+	margin-left: 8px;
+	margin-top: 10px;
+	border-style: solid;
+	border-width:thick;
+	border-color:white;
+	float:left;
 }
