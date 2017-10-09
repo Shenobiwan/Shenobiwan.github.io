@@ -153,8 +153,7 @@ img {
 }
 @font-face {
 	font-family: "Star Trek";
-	src: 
-		url("Trek Fronts/dintrek-webfont.woff") format('woff');
-	        url("Trek Fronts/dintrek-webfont.woff2") format('woff2');
-	        url("Trek Fronts/DINTrek.ttf") format('truetype');
+	src: url('Trek Fronts/dintrek-webfont.woff') format('woff'),
+	     url('Trek Fronts/dintrek-webfont.woff2') format('woff2'),
+	     url('Trek Fronts/DINTrek.ttf') format('truetype');
 }
