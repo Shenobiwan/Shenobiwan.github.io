@@ -10,7 +10,6 @@ body {
 	background-image: url(Photos/space.jpg)  
 }
 .menu {
-	font-family: 'Star Trek', Arial, "sans-serif";
 	font-stretch: extra-expanded;
 	background-color: rgba(70, 40, 108, 0.4);
         background: rgba(70, 40, 108, 0.4);	
@@ -49,7 +48,7 @@ ul {
 	background: url(Photos/TNGbadge1.png) no-repeat left top;
 	height: 45px;
 	padding-left: 50px;
-	padding-top: 15px;
+	padding-top: 20px;
 }
 .nobullet {
 	font-family: impact;
@@ -70,6 +69,7 @@ li {
 }
 
 li a {
+	font-family: 'Star Trek', Arial, "sans-serif";
 	font-stretch: ultra-expanded;
         display: block;
 }
