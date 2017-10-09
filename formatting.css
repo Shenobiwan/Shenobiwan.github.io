@@ -154,7 +154,7 @@ img {
 @font-face {
 	font-family: "Star Trek";
 	src: 
-		url("https://Shenobiwan.github.io/Trek Fronts/dintrek-webfont.woff") format('woff');
-	        url("https://Shenobiwan.github.io/Trek Fronts/dintrek-webfont.woff2") format('woff2');
-	        url("https://Shenobiwan.github.io/Trek Fronts/DINTrek.ttf") format('truetype');
+		url("Trek Fronts/dintrek-webfont.woff") format('woff');
+	        url("Trek Fronts/dintrek-webfont.woff2") format('woff2');
+	        url("Trek Fronts/DINTrek.ttf") format('truetype');
 }
