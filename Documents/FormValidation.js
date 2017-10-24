@@ -6,7 +6,7 @@ function validateForm() {
     
     for(var i = 0; i < x.length; i++) {
         if(x.elements[i].value == " ") {
-            missingValues += x.element.[i].id + "\n";    
+            missingValues += x.element[i].name + "\n";    
         }
     alert("Form values are missing, please enter your: \n" + missingValues);
     }
