@@ -1,20 +1,14 @@
 //Form Validation 
 
-function validateForm() {
+var contactFields = [document.forms["contact-us"] ["name"].value, document.forms["contact-us"] ["email"].value, document.forms["contact-us"] ["body"].value ];
+var missingValues = "";
 
-    //validating the name field has data
-    var x = document.forms["contact-us"], ["name"].value;
-    if (x == " ") {
-        alert("Please enter your name");
-    
-     //validating the email field has data
-    var x = document.forms["contact-us"], ["email"].value;
-    if (x == " ") {
-        alert("Please enter your email address");
+function validateForm(contact) {
 
-     //validating the body field has data
-    var x = document.forms["contact-us"], ["body"].value;
-    if (x == " ") {
-        alert("Please enter your comments before submitting");
+    for(var i = 0; i < contact.length; i++) {
+        if(contact[i] == " ") {
+            missingValues += contact[i] + "\n";    
+        }
+    alert("Form values are missing, please enter your: \n" + missingValues);
     }
 }
