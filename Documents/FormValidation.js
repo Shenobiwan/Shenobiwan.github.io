@@ -8,6 +8,6 @@ function validateForm() {
         if(x.elements[i].value == " ") {
             missingValues += x.element[i].name + "\n";    
         }
-    alert("Form values are missing, please enter your: \n" + missingValues);
     }
+    alert("Form values are missing, please enter your: \n" + missingValues);
 }
