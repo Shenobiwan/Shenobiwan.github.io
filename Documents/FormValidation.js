@@ -2,7 +2,7 @@
 
 function validateForm() {
     var x =  document.forms["contact-us"];
-    var missingValues = "";
+    var missingValues = "test";
     var i;
     for(i = 0; i < x.length; i++) {
         if(x.elements[i].value == " ") {
