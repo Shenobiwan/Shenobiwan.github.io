@@ -17,8 +17,8 @@ function validateForm() {
 function emailValidation() {
     var patt = new etest("@");
     if(patt.test(document.forms["contact-us"] ["email"].value)) {
-        else {
-            alert("Your email is missing the "@" symbol. Please correct and resubmit the form.")
+       } else {
+            alert("Your email is missing the \"@\" symbol. Please correct and resubmit the form.")
         }
     }
-}
+
