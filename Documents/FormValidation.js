@@ -21,4 +21,12 @@ function emailValidation() {
             alert("Your email is missing the \"@\" symbol. Please correct and resubmit the form.")
         }
     }
+function nameValidation() {
+    var patt = new RegExp("@");
+    var nameField = document.forms["contact-us"] ["name"].value;
+    if(isNaN(nameField)) {
+    } else { 
+        alert("Your name cannot contain numbers. Please correct and resubmit the form.")
+        }
+    }
 
