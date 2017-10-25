@@ -18,7 +18,6 @@ function emailValidation() {
     var patt = new RegExp("@");
     var emailField = document.forms["contact-us"] ["email"].value;
     if(patt.test(emailField) == false && emailField !== " ") {
-       } else{
             alert("Your email is missing the \"@\" symbol. Please correct and resubmit the form.")
         }
     }
