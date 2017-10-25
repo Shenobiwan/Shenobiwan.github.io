@@ -19,14 +19,13 @@ function emailValidation() {
     var patt = new RegExp("@");
     var emailField = document.forms["contact-us"] ["email address"].value;
     if(patt.test(emailField) == false && emailField !== "") {
-            alert("Your email is missing the \"@\" symbol. Please correct and resubmit the form.")
+            alert("Your email is missing the \"@\" symbol. Please correct and resubmit the form.");
         }
     }
 function nameValidation() {
-    var patt = new RegExp("@");
     var nameField = document.forms["contact-us"] ["name"].value;
     if(isNaN(nameField)) {
-           alert("Your name cannot contain numbers. Please correct and resubmit the form.")
+           alert("Your name cannot contain numbers. Please correct and resubmit the form.");
         }
     }
 
