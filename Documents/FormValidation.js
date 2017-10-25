@@ -13,6 +13,7 @@ function validateForm() {
     } else { alert("Form values are missing, please enter your: \n" + missingValues);
     }
     emailValidation();
+    nameValidation();
 }
 function emailValidation() {
     var patt = new RegExp("@");
