@@ -1,15 +1,17 @@
 //Form Validation 
+var missingValues = "";
 
 function validateForm() {
     var x =  document.forms["contact-us"];
-    var missingValues = "";
     var i;
     for(i = 0; i < x.length; i++) {
         if(x.elements[i].value == "") {
             missingValues += x.elements[i].name + "\n";    
         }
     }
+    if(missingValues == null) {
     alert("Form values are missing, please enter your: \n" + missingValues);
+    }
     emailValidation();
 }
 function emailValidation() {
