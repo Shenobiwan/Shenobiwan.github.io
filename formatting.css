@@ -162,3 +162,8 @@ img {
 #todaysDate {
 	font-weight: 700;
 }
+footer {
+	position: absolute;
+        bottom: 0;
+	height: 60px;
+}
