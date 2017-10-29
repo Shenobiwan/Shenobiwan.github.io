@@ -169,3 +169,7 @@ footer {
 	margin-top: 15px;
 	height: 60px;
 }
+div {
+ display: block;
+ margin: auto;
+}
