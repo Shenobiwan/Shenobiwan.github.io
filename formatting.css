@@ -159,3 +159,6 @@ img {
 	     url('dintrek-webfont.woff2') format('woff2'),
 	     url('DINTrek.ttf') format('truetype');
 }
+#todaysDate {
+	font-weight: 700;
+}
