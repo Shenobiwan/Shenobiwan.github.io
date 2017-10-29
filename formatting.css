@@ -89,6 +89,7 @@ li a {
 	max-width: 100%;
 	height: auto;
 	width: auto;
+	float: right;
 }
 
     td {
