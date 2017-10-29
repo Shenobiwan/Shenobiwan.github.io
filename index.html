@@ -87,8 +87,7 @@ sift through my offerings and find the piece that speaks to you.</p>
         var d = new Date();
         var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
         var month = months[d.getMonth()];
-        var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-        var day = days[d.getDay()];
+        var day = d.getDate();
         var year = d.getFullYear();
     
 document.getElementById("demo").innerHTML = "Today is: " + month + " " + day + "," + year;     
