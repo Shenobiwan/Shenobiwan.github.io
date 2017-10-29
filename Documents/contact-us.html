@@ -89,6 +89,20 @@
             </fieldset>
         </form>
     <script src="FormValidation.js"></script>
+    <footer>
+    <div class ="center">
+        <p id="displayDate"></p>
+    <script>
+        var d = new Date();
+        var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        var month = months[d.getMonth()];
+        var day = d.getDate();
+        var year = d.getFullYear();
+    
+document.getElementById("displayDate").innerHTML = "Today is: " + month + " " + day + ", " + year;     
+</script>
+   </div>  
+</footer>
 </body>
 </title>    
     
