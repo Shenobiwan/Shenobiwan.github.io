@@ -86,9 +86,11 @@ sift through my offerings and find the piece that speaks to you.</p>
     <script>
         var d = new Date();
         var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-        var thismonth = months[d.getDay()];
+        var thismonth = months[d.getMonth()];
+        var day = d.getDay();
+        var year = d.getFullYear();
     
-document.getElementById("demo").innerHTML = "Today is: " + thismonth;     
+document.getElementById("demo").innerHTML = "Today is: " + thismonth + day + "," + year;     
 </script>
    </div>  
 </footer>
