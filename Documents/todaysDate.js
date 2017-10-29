@@ -1,1 +1,1 @@
-document.getElementByID("todaysDate").innerHTML = Date();
+document.getElementByID("todaysDate").innerHTML = "Today is: " + Date();
