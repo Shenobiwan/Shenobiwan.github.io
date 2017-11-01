@@ -23,9 +23,10 @@ function emailValidation() {
         }
     }
 function nameValidation() {
+    var patt = new RegExp ("^A-Za-z");
     var nameField = document.forms["contact-us"] ["name"].value;
-    if(isNaN(nameField)) {
-           alert("Your name cannot contain numbers. Please correct and resubmit the form.");
+    if(patt.test(nameField)) {
+           alert("Your name cannot contain numbers or symbols. Please correct and resubmit the form.");
         }
     }
 
