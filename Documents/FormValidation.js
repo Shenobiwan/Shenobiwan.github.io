@@ -11,6 +11,8 @@ function validateForm() {
     }
     if(missingValues == null || missingValues == "") {
     } else { alert("Form values are missing, please enter your: \n" + missingValues);
+            emailValidation();
+            nameValidation();
     }
     emailValidation();
     nameValidation();
