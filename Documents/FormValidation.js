@@ -18,7 +18,7 @@ function validateForm() {
 function emailValidation() {
     var patt = new RegExp([a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$);
     var emailField = document.forms["contact-us"] ["email address"].value;
-    if(patt.test(emailField) == false && emailField !== "") {
+    if(patt.test(emailField) == true && emailField !== "") {
             alert("Your email is not formatted correctly. Please correct and resubmit the form.");
         }
     }
