@@ -24,6 +24,7 @@ function emailValidation() {
         }
     }
 function nameValidation() {
+    alert("TEST Your name cannot contain numbers or symbols. Please correct and resubmit the form.");
     var patt = new RegExp ("^A-Za-z");
     var nameField = document.forms["contact-us"] ["name"].value;
     if(patt.test(nameField)) {
