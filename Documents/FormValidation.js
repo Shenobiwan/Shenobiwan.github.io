@@ -27,7 +27,7 @@ function nameValidation() {
     
     var patt = new RegExp ("/^[A-Za-z\s]+$/");
     var nameField = document.forms["contact-us"] ["name"].value;
-    if(patt.test(nameField) == false) {
+    if(patt.test(nameField)) {
            alert("Your name cannot contain numbers or symbols. Please correct and resubmit the form.");
         }
     }
