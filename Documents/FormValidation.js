@@ -13,7 +13,6 @@ function validateForm() {
     } else { alert("Form values are missing, please enter your: \n" + missingValues);
     }
     emailValidation();
-    nameValidation();
 }
 function emailValidation() {
     
@@ -21,14 +20,6 @@ function emailValidation() {
     var emailField = document.forms["contact-us"] ["email address"].value;
     if (patt.test(emailField) == false) {
             alert("Your email is not formatted correctly. Please correct and resubmit the form.");
-        }
-    }
-function nameValidation() {
-    
-    var patt = new RegExp ("[^A-Za-z\s]");
-    var nameField = document.forms["contact-us"] ["name"].value;
-    if(patt.test(nameField)) {
-           alert("Your name cannot contain numbers or symbols. Please correct and resubmit the form.");
         }
     }
 
