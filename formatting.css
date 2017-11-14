@@ -278,7 +278,11 @@ img {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
+.locateDots {
+  position: absolute;
+  left: 80px;
+  top: 600px;
+}
 .active, .dot:hover {
   background-color: #717171;
 }
