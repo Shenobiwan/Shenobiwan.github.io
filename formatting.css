@@ -209,8 +209,10 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
+  max-width: 500px;
+  position: absolute;
+  top: 500px;
+  left: 20px;	
   margin: auto;
 }
 
