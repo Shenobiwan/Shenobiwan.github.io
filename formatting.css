@@ -250,6 +250,7 @@ img {
 .text {
   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";	
   color: #f2f2f2;
+  font-weight: 900;	
   font-size: 17px;
   padding: 8px 12px;
   position: absolute;
@@ -260,6 +261,7 @@ img {
 
 /* Number text (1/3 etc) */
 .numbertext {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";	
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
@@ -280,8 +282,8 @@ img {
 }
 .locateDots {
   position: absolute;
-  left: 80px;
-  top: 600px;
+  left: 235px;
+  top: 850px;
 }
 .active, .dot:hover {
   background-color: #717171;
