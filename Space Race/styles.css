@@ -1,0 +1,49 @@
+.backgroundwork {
+  background-image: url("http://avante.biz/wp-content/uploads/Deep-Space-Wallpapers/Deep-Space-Wallpapers-037.jpg");
+  width: 1000px;
+  height: 500px;
+  position: absolute;
+  border: 50px inset grey;
+  border-radius: 10px;
+  padding
+}
+
+#lane1 {
+  position: absolute;
+  left: 50px;
+  top: 75px;
+  width: 800px;
+  height: 150px
+}
+
+#lane2 {
+  position: absolute;
+  left: 50px;
+  top: 300px;
+  width: 800px;
+  height: 150px
+}
+
+.borg {
+  width: 216px;
+  height: 122px;
+  position: relative;
+  z-index: 2;
+  animation: enterprise 5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+}
+
+.enterprise {
+  position: relative;
+  z-index: 3;
+}
+
+@keyframes enterprise {
+  from {
+    left: 50px;
+  }
+  to {
+    left: 720px;
+  }
+}
