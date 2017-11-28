@@ -1,3 +1,3 @@
-function myFunction() {
+function loadScreen() {
   alert("This is working");
 }
