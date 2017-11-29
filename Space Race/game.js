@@ -13,4 +13,6 @@ function goScotty() {
   var list = document.getElementsByTagName("div")[2];
   list.style.backgroundColor = " ";
   list.style.backgroundImage = "url('https://avante.biz/wp-content/uploads/Deep-Space-Wallpapers/Deep-Space-Wallpapers-037.jpg')";
+  document.getElementById("red").style.visibility = "visible";
+  document.getElementById("redalertmsg").style.visibility = "visible";
 }
