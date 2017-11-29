@@ -18,9 +18,9 @@
 }
 
 .startButton {
-  position: absolute;
-  left: 680px;
-  top: 450px;
+ position: absolute;
+  left: 235px;
+  top: 480px;
   z-index: 4;
 }
 
@@ -36,7 +36,7 @@ h1 {
   font-family:"Star Trek";
   color: white;
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
 }
 p {
   font-family: monospace;
@@ -56,16 +56,18 @@ p {
 }
 
 button {
-  background-color: purple;
-  border: 5px solid purple;
-  border-radius: 10px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
+    background-color: #9999ff;
+    border: 5px solid #cc6666;
+    border-radius: 10px;
+    color: #ff9900;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: bolder;
 }
 
 #lane1 {
