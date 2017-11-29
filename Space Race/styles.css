@@ -10,7 +10,7 @@
 
 .startButton {
   position: absolute;
-  left: 440px;
+  left: 680px;
   top: 450px;
   z-index: 4;
 }
@@ -19,16 +19,31 @@
   height: 200px;
   width: 350px;
   float: left;
-  margin-top: 58px;
+  margin-top: 10px;
+  margin-bottom: 100px;
   z-index: 5;
-  align: middle;
 }
-
+h1 {
+  font-family:"Star Trek";
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
 p {
   font-family: monospace;
-  font-size: xx-large;
+  font-size: 29px;
   color: white;
   padding-right: 30px;
+  padding-left: 30px;
+  height: fit-content;
+  /* width: 1000px; */
+  /* position:  relative; */
+  /* text-overflow: ellipsis; */
+  /* text-decoration-color: aliceblue; */
+  /* -webkit-box-lines: multiple; */
+  /* font-feature-settings: unset; */
+  line-height: 1;
+  text-align: -webkit-auto;
 }
 
 button {
