@@ -19,7 +19,7 @@
 
 .startButton {
  position: absolute;
-  left: 235px;
+   left: 210px;
   top: 480px;
   z-index: 4;
 }
@@ -59,7 +59,7 @@ button {
     background-color: #9999ff;
     border: 5px solid #cc6666;
     border-radius: 10px;
-    color: #ff9900;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
