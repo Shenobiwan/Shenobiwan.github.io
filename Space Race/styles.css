@@ -81,6 +81,7 @@ p {
   left: 0px;
   top: 10px;
   text-align: -webkit-center;
+  visibility: hidden;
 }
 button {
     background-color: #9999ff;
