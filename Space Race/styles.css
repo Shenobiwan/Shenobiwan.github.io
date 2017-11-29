@@ -87,6 +87,7 @@ button {
 }
 body {
 background-image: url('https://Shenobiwan.github.io/Space Race/compilation.jpg');
+  background-repeat: no-repeat, no-repeat;
 }
 
 @font-face {
