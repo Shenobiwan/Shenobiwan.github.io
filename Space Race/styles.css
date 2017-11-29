@@ -89,7 +89,19 @@ body {
 background-image: url('https://Shenobiwan.github.io/Space Race/BorgFirstContact.jpg');
   background-repeat: no-repeat, no-repeat;
 }
-
+.backgroundtext {
+position: absolute;
+left: 1300px;
+  top: 600px;
+ height: 300px;
+ width: 200px;
+}
+#bodytitle {
+  font-family: 'Star Trek', Arial, "sans-serif";
+  font-size: 60px;
+  color: white;
+  padding-right: 30px;
+}
 @font-face {
   font-family: "Star Trek";
   src: url('https://Shenobiwan.github.io/dintrek-webfont.woff') format('woff'), url('https://Shenobiwan.github.io/dintrek-webfont.woff2') format('woff2'), url('https://Shenobiwan.github.io/DINTrek.ttf') format('truetype');
