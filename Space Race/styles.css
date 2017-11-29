@@ -60,6 +60,7 @@ p {
   position: relative;
   left: 200px;
   top: 150px;
+  visibility: hidden;
 }
 #redalertmsg {
   background: linear-gradient(rgba(192,192,192,1), rgba(192,192,192,0)); 
@@ -71,6 +72,7 @@ p {
   position: relative;
   left: 800px;
   top: 150px;
+  visibility: hidden;
 button {
     background-color: #9999ff;
     border: 5px solid #cc6666;
