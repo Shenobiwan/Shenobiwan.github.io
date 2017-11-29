@@ -54,7 +54,23 @@ p {
   line-height: 1;
   text-align: -webkit-auto;
 }
-
+#red {
+  height: 200px;
+  width: 300px
+  position: relative;
+  left: 200px;
+  top: 150px;
+}
+#redalertmsg {
+  background: linear-gradient(rgba(192,192,192,1), rgba(192,192,192,0)); 
+  border: 5px solid black;
+  font-family:monospace;
+  font-size:20px;
+  height: 200px;
+  width: 400px;
+  position: relative;
+  left: 800px;
+  top: 150px;
 button {
     background-color: #9999ff;
     border: 5px solid #cc6666;
