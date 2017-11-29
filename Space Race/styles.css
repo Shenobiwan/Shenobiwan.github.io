@@ -90,18 +90,18 @@ background-image: url('https://Shenobiwan.github.io/Space Race/BorgFirstContact.
   background-repeat: no-repeat, no-repeat;
 }
 .backgroundtext {
-background-color: green;  
 position: absolute;
 left: 1300px;
-  top: 600px;
- height: 300px;
- width: 200px;
+top: 600px;
+height: 300px;
+width: 300px;  
 }
 #bodytitle {
   font-family: 'Star Trek', Arial, "sans-serif";
   font-size: 60px;
   color: white;
   padding-right: 30px;
+  line-height: 150%;
 }
 @font-face {
   font-family: "Star Trek";
