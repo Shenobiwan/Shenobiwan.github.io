@@ -24,13 +24,18 @@
   align: middle;
 }
 
-p {
+h1 {
   font-family: 'Star Trek', Arial, "sans-serif";
   font-size: 30px;
   color: white;
   padding-right: 30px;
-  line-height: 200%;
 }
+p {
+  font-family:  Arial, "sans-serif";
+  font-size: 35px;
+  color: white;
+  padding-right: 30px;
+  line-height: 200%;
 
 button {
   background-color: purple;
