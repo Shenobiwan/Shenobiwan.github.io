@@ -1,3 +1,5 @@
+document.getElementbyId("go").onclick = goScotty;
+
 function goScotty() {
   document.getElementbyId("picard").style.visibility = "hidden";
   document.getElementbyId("introText").style.visibility = "hidden";
