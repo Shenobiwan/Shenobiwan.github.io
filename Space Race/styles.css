@@ -90,6 +90,7 @@ background-image: url('https://Shenobiwan.github.io/Space Race/BorgFirstContact.
   background-repeat: no-repeat, no-repeat;
 }
 .backgroundtext {
+background-color: green;  
 position: absolute;
 left: 1300px;
   top: 600px;
