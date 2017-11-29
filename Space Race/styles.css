@@ -3,9 +3,16 @@
   width: 1000px;
   height: 500px;
   position: relative;
-  border: 50px inset grey;
+  background-color: black;
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    border-left: 50px double #6666ff;
+    border-right: 50px double #cc99cc;
+    border-radius: 10px;
+    border-top: 50px double #cc6699;
+    border-bottom: 50px double #ff9900;
   border-radius: 10px;
-  padding
 }
 
 .startButton {
