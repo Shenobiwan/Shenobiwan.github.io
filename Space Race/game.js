@@ -11,6 +11,6 @@ function goScotty() {
   document.getElementById("enterprise").style.visibility = "visible";
   var list = document.getElementsByTagName("div")[1];
   list.getElementsByTagName("div")[1].backgroundColor = " ";
-  list.getElementsByTagName("div")[1].backgroundImage = "url(https://avante.biz/wp-content/uploads/Deep-Space-Wallpapers/Deep-Space-Wallpapers-037.jpg)";
+  list.getElementsByTagName("div")[1].backgroundImage = "url('https://avante.biz/wp-content/uploads/Deep-Space-Wallpapers/Deep-Space-Wallpapers-037.jpg')";
     alert("This is being called");
 }
