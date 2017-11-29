@@ -5,8 +5,8 @@ function goScotty() {
   document.getElementById("picard").style.visibility = "hidden";
   document.getElementById("introText").style.visibility = "hidden";
   document.getElementById("go").style.visibility = "hidden";
-  document.h1.style.visibility = "hidden";
- 
+  document.getElementById("headline").style.visibility = "hidden";
+
  
   document.getElementById("borg").style.visibility = "visible";
   document.getElementById("enterprise").style.visibility = "visible";
