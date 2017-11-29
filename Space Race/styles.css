@@ -8,10 +8,6 @@
   padding
 }
 
-.backgroundwork:active {
-  background-image: url("http://avante.biz/wp-content/uploads/Deep-Space-Wallpapers/Deep-Space-Wallpapers-037.jpg");
-}
-
 .startButton {
   position: absolute;
   left: 440px;
