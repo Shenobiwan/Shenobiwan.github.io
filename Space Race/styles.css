@@ -94,7 +94,8 @@ position: absolute;
 left: 1400px;
 top: 200px;
 height: 300px;
-width: 300px;  
+width: 300px; 
+  background-color: green;
 }
 #bodytitle {
   font-family: 'Star Trek', Arial, "sans-serif";
