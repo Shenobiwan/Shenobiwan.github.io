@@ -7,7 +7,7 @@ function goScotty() {
   document.getElementById("go").style.visibility = "hidden";
  
   var list = document.getElementsByTagName("div")[1];
-    list.getElementsByTagName("div")[1].background-color == " ";
+    list.getElementsByTagName("div")[1].backgroundColor == " ";
  /*document.body.style.backgroundImage = "url(http://avante.biz/wp-content/uploads/Deep-Space-Wallpapers/Deep-Space-Wallpapers-037.jpg)";*/
   document.getElementById("borg").style.visibility = "visible";
   document.getElementById("enterprise").style.visibility = "visible";
