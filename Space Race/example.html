@@ -14,52 +14,64 @@
         #bg {
             display: block;
             margin: 0 auto 16px;
-        }</style></head><body><div><canvas id="bg" width="640" height="320"></canvas><button id="btnStart" class="btn btn-default">Start/stop animation</button></div><script>(function() {
-        window.requestAnimationFrame = window.requestAnimationFrame
+        }
+            </style>
+            </head>
+            <body>
+            <div>
+            <canvas id="bg" width="640" height="320"></canvas>
+            <button id="btnStart" class="btn btn-default">Start/stop animation</button>
+            </div>
+            <script>
+            //Self-invoking function
+                        (function() {
+        window.requestAnimationFrame = window.requestAnimationFrame //updated animation method with built in backup.
                 || window.webkitRequestAnimationFrame
                 || window.mozRequestAnimationFrame
-                || function(callback) { window.setTimeout(callback, 1000 / 60); };
+                || function(callback) { window.setTimeout(callback, 1000 / 60); }; //backup animation method
 
-        var canvas = document.getElementById('bg');
-        var context = canvas.getContext('2d');
-        var looping = false;
-        var totalSeconds = 0;
+        var canvas = document.getElementById('bg'); //sets the canvas created in HTML to a JavaScript variable
+        var context = canvas.getContext('2d'); //creates an object with the methods of 2d drawing available to it
+        var looping = false; // Canvas is set to not be initially looping 
+        var totalSeconds = 0; 
 
-        var img = new Image();
-        img.onload = imageLoaded;
+        var img = new Image(); // image constructor - equivalent to document.createElement('img')
+        img.onload = imageLoaded; //setting img upon load to equal imageLoaded function.
         img.src = 'https://avante.biz/wp-content/uploads/Deep-Space-Wallpapers/Deep-Space-Wallpapers-037.jpg';
 
         function imageLoaded() {
             draw(0);
 
-            var btn = document.getElementById('btnStart');
-            btn.addEventListener('click', function() {
+            var btn = document.getElementById('btnStart'); //creates a variable that references the HTML button 
+            btn.addEventListener('click', function() { //Clicking the button sets off the startStop function. 
                 startStop();
             });
         }
 
         var lastFrameTime = 0;
 
-        function startStop() {
-            looping = !looping;
+        function startStop() { // Called when the button is clicked. 
+            looping = !looping; // I THINK this means looping is "true because the left side is saying NOT false?
 
-            if (looping) {
-                lastFrameTime = Date.now();
-                requestAnimationFrame(loop);
+            if (looping) { //If looping variable is "true" the expressions below execute. 
+                lastFrameTime = Date.now();  //Creates a variable that is equal to the # of miliseconds since Jan 1 1970
+                requestAnimationFrame(loop); //Calls the loop function when it is time to update the animation for the next repaint.
             }
         }
 
-        function loop() {
-            if (!looping) {
-                return;
+        function loop() { // Causes Processing to continuously execute the code within draw()
+            if (!looping) { // Checks to see if the variable looping is FALSE, 
+                return; // and if that is true - ..... sets the global var to false?
             }
 
-            requestAnimationFrame(loop);
+            requestAnimationFrame(loop); //Calls the loop function when it is time to update the animation for the next repaint.
 
-            var now = Date.now();
-            var deltaSeconds = (now - lastFrameTime) / 1000;
-            lastFrameTime = now;
-            draw(deltaSeconds);
+            var now = Date.now(); //Creates a variable that is equal to the # of miliseconds since Jan 1 1970
+            var deltaSeconds = (now - lastFrameTime) / 1000; //Sets var equal to milisecond difference between now and lastFrameTime/1000 
+                                                            //to the # of seconds elapsed between the two vars
+            lastFrameTime = now; //resets var to the current time of the # of miliseconds since Jan 1 1970
+            draw(deltaSeconds); //???
+                    alert(deltaSeconds);
         }
 
         function draw(delta) {
