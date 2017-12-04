@@ -70,13 +70,13 @@
             var deltaSeconds = (now - lastFrameTime) / 1000; //Sets var equal to milisecond difference between now and lastFrameTime/1000 
                                                             //to the # of seconds elapsed between the two vars
             lastFrameTime = now; //resets var to the current time of the # of miliseconds since Jan 1 1970
-            draw(deltaSeconds); //???
-                    alert(deltaSeconds);
+            draw(deltaSeconds); //??
         }
 
         function draw(delta) {
             totalSeconds += delta;
-
+                    
+            alert(totalSeconds, delta);
             var vx = 100; // the background scrolls with a speed of 100 pixels/sec
             var numImages = Math.ceil(canvas.width / img.width) + 1;
             var xpos = totalSeconds * vx % img.width;
