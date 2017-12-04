@@ -61,7 +61,7 @@
 
         function loop() { // Causes Processing to continuously execute the code within draw()
             if (!looping) { // Checks to see if the variable looping is FALSE, 
-                return; // and if that is true - ..... sets the global var to false?
+                return; // and if that is true - ..... sets the global var to false? exits function?
             }
 
             requestAnimationFrame(loop); //Calls the loop function when it is time to update the animation for the next repaint.
@@ -70,22 +70,24 @@
             var deltaSeconds = (now - lastFrameTime) / 1000; //Sets var equal to milisecond difference between now and lastFrameTime/1000 
                                                             //to the # of seconds elapsed between the two vars
             lastFrameTime = now; //resets var to the current time of the # of miliseconds since Jan 1 1970
-            draw(deltaSeconds); //??
+            draw(deltaSeconds); //calling the draw function and passing the argument "deltaSeconds"
         }
 
-        function draw(delta) {
-            totalSeconds += delta;
-                    
-            alert(totalSeconds, delta);
+        function draw(delta) { // function to 
+            totalSeconds += delta; //total elasped time in seconds balanced to account for differing frame rates. 
             var vx = 100; // the background scrolls with a speed of 100 pixels/sec
-            var numImages = Math.ceil(canvas.width / img.width) + 1;
-            var xpos = totalSeconds * vx % img.width;
+            var numImages = Math.ceil(canvas.width / img.width) + 1; //Rounding the division of canvas width/image width (+ 1 for the loop to come)
+            var xpos = totalSeconds * vx % img.width; //determines how much a movement of the image needs to be adjusted to
+                                                     //utilize all of it with no remainder. 
 
-            context.save();
-            context.translate(-xpos, 0);
+            context.save(); // saves the state of the canvas context i.e. 2D tools used  
+            context.translate(-xpos, 0); //Adjusts the image movements with our new variable.
             for (var i = 0; i < numImages; i++) {
-                context.drawImage(img, i * img.width, 0);
+                context.drawImage(img, i * img.width, 0); //determines where to clip the image being laid over the canvas 
             }
-            context.restore();
+            context.restore(); // restores the state of the 2D tools in use up to this point
         }
-    }());</script></body></html>
+    }());
+    </script>
+    </body>
+    </html>
