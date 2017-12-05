@@ -101,9 +101,13 @@ if (myGamePiece.crashWith(myObstacle)) {
        ctx.fillText(" YOU'VE WON!",280,470);
        myGameArea.stop(); }
          if (myGameArea.stop) {
-          document.getElementById("warpcore").innerHTML = "PLAY AGAIN";
-          myGameArea.clear();
-          startGame();
+          var play = document.getElementById("warpcore");
+          play.innerHTML = "PLAY AGAIN";
+          play.addEventListener("click", function () {
+             startGame();
+          }
+          if(startGame) {
+           play.innerHTML = "TINKER WITH THE WARP CORE";                      
       } else if (myGamePiece2.crashWith(myObstacle)) {
        lose.update();
        ctx.font = "bold 30px monospace";
