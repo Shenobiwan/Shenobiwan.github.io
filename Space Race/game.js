@@ -33,4 +33,5 @@ function goGame() {
   document.getElementById("greenmsg").style.visibility = "hidden";
   document.getElementById("greenalertmsg").style.visibility = "hidden";
   document.getElementById("warpcore").style.visibility = "visible";
+   document.getElementById("borgTheme").setAttribute = "autoplay";
 }
