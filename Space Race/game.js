@@ -35,8 +35,6 @@ function goGame() {
   document.getElementById("greenalertmsg").style.visibility = "hidden";
   document.getElementById("warpcore").style.visibility = "visible";
 }
-var 
-
 function playAudio() { 
     x.play(); 
 } 
