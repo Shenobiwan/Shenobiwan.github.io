@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="styles.css">
 <style>
 canvas {
  border:1px solid #d3d3d3;
@@ -9,7 +10,37 @@ canvas {
 }
 </style>
 </head>
-<body onload="startGame()"> 
+<body>
+    <div class="backgroundtext">
+        <p id="bodytitle">THE RACE THROUGH SPACE TO SAVE PICARD</p>
+    </div>
+<div class="startButton">
+
+  <button id="go">START MISSION
+  </button>
+       
+</div>
+<div class="backgroundwork">
+     <h1 id="headline">PICARD HAS BEEN TAKEN!!!</h1>
+  <img id="picard" class="savePicard" src="https://Shenobiwan.github.io/Space Race/picardcapture.jpg" />
+   
+    <p id="introText">Liam Neeson warned us this would happen. Picard is gone and the Borg Queen has plans to assimilate us all. <br><br>   
+        Your mission: Save Picard and get in position before the Borg fleet can utilize their transwarp portals to get to Earth. 
+  </p>
+ <div id="redalertmsg">
+    <img src="https://Shenobiwan.github.io/Space Race/red.gif" id="red"><p id="redmsg">
+Everyone to your posts, prepare for warp. <br><br>
+Click the alert to change our condition and warn other ships to stay away. We are on our own.</p>
+    </div>
+	 <div id="greenalertmsg">
+    <img src="https://Shenobiwan.github.io/Space Race/green.gif" id="red"><p id="greenmsg">
+Condition Green in place. <br><br>
+Beat the Borg in the race to the rendezvou and prep the boarding team.</p>
+    </div>
+</div>
+    <script src="game.js"></script> 
+
+<!--<body onload="startGame()">  *********************************MUST BE CHANGED^^****************************************
 <script>
 
 var myGamePiece;
