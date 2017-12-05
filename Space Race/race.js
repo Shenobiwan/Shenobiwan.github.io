@@ -10,14 +10,13 @@ function startGame() {
  myObstacle = new component(80, 1000, "finish-line.png", 950, 0, "image"); 
     myGamePiece = new component(216, 133, "enterprisesmall.png", 10, 60, "image");
     myGamePiece2 = new component(216, 133, "borgshipsmall.png", 70, 250, "image");
-    myBackground = new component(1920, 1080, "spacerace.png", 0, 0, "background");
+    myBackground = new component(1920, 1080, "space.png", 0, 0, "background");
     myGameArea.start();
 }
 
 var myGameArea = {
     canvas : document.createElement("canvas"),
     start : function() {
-	      //this.parent('storyframe'); //TRY TO MAKE THIS WORK OR REMOVE IT
         this.canvas.width = 1000;
         this.canvas.height = 500;
         this.context = this.canvas.getContext("2d");
