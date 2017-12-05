@@ -41,6 +41,12 @@ canvas {
   top: 670px;
   visibility: hidden;
 }
+#replay {
+  position: absolute;
+  left: 480px;
+  top: 720px;
+  visibility: hidden;
+}
 
 .savePicard {
   height: 200px;
