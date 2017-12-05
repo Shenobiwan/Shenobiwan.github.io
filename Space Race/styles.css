@@ -90,6 +90,7 @@ p {
   top: 10px;
   text-align: -webkit-center;
   visibility: hidden;
+  cursor: pointer;
 }
 #greenmsg {
   padding-left: 320px;
