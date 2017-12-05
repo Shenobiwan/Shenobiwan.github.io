@@ -11,8 +11,8 @@ function startGame() {
     myGamePiece = new component(216, 133, "enterprisesmall.png", 10, 60, "image");
     myGamePiece2 = new component(216, 133, "borgshipsmall.png", 70, 250, "image");
     myBackground = new component(1920, 1080, "spacewallpaper.jpg", 0, 0, "background");
-    win = new component(1000, 400, "youwin.jpg", 0, 0, "image");
-    lose = new component(1000, 400, "youlost.jpg", 0, 0, "image");
+    win = new component(1000, 500, "youwin.jpg", 0, 0, "image");
+    lose = new component(1000, 500, "youlost.jpg", 0, 0, "image");
     myGameArea.start();
 }
 
