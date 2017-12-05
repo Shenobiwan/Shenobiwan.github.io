@@ -9,8 +9,8 @@ function goScotty() {
   document.getElementById("go").style.visibility = "hidden";
   document.getElementById("headline").style.visibility = "hidden";
   var list = document.getElementsByTagName("div")[2];
-  list.style.backgroundColor = " ";
-  list.style.backgroundImage = "url('spacerace.png')";
+  //list.style.backgroundColor = " ";
+  //list.style.backgroundImage = "url('spacerace.png')";
   document.getElementById("red").style.visibility = "visible";
   document.getElementById("redalertmsg").style.visibility = "visible";
   document.getElementById("redmsg").style.visibility = "visible";
