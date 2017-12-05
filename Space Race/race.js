@@ -101,7 +101,7 @@ if (myGamePiece.crashWith(myObstacle)) {
        ctx.fillText(" YOU'VE WON!",280,470);
        myGameArea.stop(); }
          if (myGameArea.stop) {
-          document.getElementById("warpcore).innerHTML = "PLAY AGAIN";
+          document.getElementById("warpcore").innerHTML = "PLAY AGAIN";
           myGameArea.clear();
           startGame();
       } else if (myGamePiece2.crashWith(myObstacle)) {
