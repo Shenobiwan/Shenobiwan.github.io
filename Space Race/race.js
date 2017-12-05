@@ -103,6 +103,9 @@ if (myGamePiece.crashWith(myObstacle)) {
        ctx.fillStyle = "white";
        ctx.fillText("We will add your distinctiveness to our own.",10,25);
        ctx.fillText(" Welcome home... Locutus.",30,60);
+       ctx.font = "bold 60px monospace";
+       ctx.fillStyle = "white";
+       ctx.fillText(" YOU'VE LOST!",30,60);
        myGameArea.stop();
     } else { 
     myGameArea.clear();
