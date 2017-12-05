@@ -100,14 +100,8 @@ if (myGamePiece.crashWith(myObstacle)) {
        ctx.fillStyle = "white";
        ctx.fillText(" YOU'VE WON!",280,470);
        myGameArea.stop(); 
-        // if (myGameArea.stop) {
-         // var play = document.getElementById("warpcore");
-         // play.innerHTML = "PLAY AGAIN";
-         // play.addEventListener("click", function () {
-         //    startGame();
-          //});
-         // if(startGame) {
-          // play.innerHTML = "TINKER WITH THE WARP CORE";                      
+       document.getElementById("replay").style.visibility = "visible";
+                            
       } else if (myGamePiece2.crashWith(myObstacle)) {
        lose.update();
        ctx.font = "bold 30px monospace";
@@ -118,6 +112,7 @@ if (myGamePiece.crashWith(myObstacle)) {
        ctx.fillStyle = "white";
        ctx.fillText(" YOU'VE LOST!",280,470);
        myGameArea.stop();
+       document.getElementById("replay").style.visibility = "visible";
     } else { 
     myGameArea.clear();
     myBackground.speedX = -.5;
