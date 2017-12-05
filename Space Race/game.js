@@ -37,5 +37,7 @@ function goGame() {
 }
 function playAudio() { 
   x = document.getElementById("borgTheme"); 
+  y = document.getElementById("introsong"); 
+    y.pause();
     x.play(); 
 } 
