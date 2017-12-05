@@ -10,7 +10,7 @@ function goScotty() {
   document.getElementById("headline").style.visibility = "hidden";
   var list = document.getElementsByTagName("div")[2];
   list.style.backgroundColor = " ";
-  list.style.backgroundImage = "url('http://thewallpaper.co/wp-content/uploads/2016/10/Free-space-backgrounds-pictures-desktop-download-high-definiton-wallpapers-desktop-images-windows-10-backgrounds-colourful-4k-download-wallpapers-hi-res-quality-images-1920x1080.jpg')";
+  list.style.backgroundImage = "url('spacerace.png')";
   document.getElementById("red").style.visibility = "visible";
   document.getElementById("redalertmsg").style.visibility = "visible";
   document.getElementById("redmsg").style.visibility = "visible";
