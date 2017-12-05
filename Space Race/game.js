@@ -3,7 +3,10 @@ var redButton = document.getElementById("redmsg");
 var greenButton = document.getElementById("greenmsg");
 intro.onclick = goScotty;
 redButton.onlick = goGreen;
-greenButton.addEventListener("click", goGame);
+greenButton.addEventListener("click", function() {
+  goGame(); 
+  startGame();
+});
 function goScotty() {
   document.getElementById("picard").style.visibility = "hidden";
   document.getElementById("introText").style.visibility = "hidden";
