@@ -82,6 +82,18 @@ p {
   top: 150px;
   visibility: hidden;
 }
+#greenalertmsg {
+  background: linear-gradient(rgba(192,192,192,1), rgba(192,192,192,0));
+  border: 5px solid black;
+  font-family:monospace;
+  font-size:20px;
+  height: 200px;
+  width: 650px;
+  position: absolute;
+  left: 300px;
+  top: 150px;
+  visibility: hidden;
+}
 #redmsg {
   padding-left: 320px;
   position: absolute;
