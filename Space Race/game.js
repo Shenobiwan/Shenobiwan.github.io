@@ -22,4 +22,5 @@ function goGreen() {
    document.getElementById("green").style.visibility = "visible";
   document.getElementById("greenmsg").style.visibility = "visible";
   document.getElementById("greenalertmsg").style.visibility = "visible";
+  document.getElementById("warpcore").style.visibility = "visible";
 }
