@@ -83,6 +83,15 @@ p {
   text-align: -webkit-center;
   visibility: hidden;
 }
+#greenmsg {
+  padding-left: 320px;
+  position: absolute;
+  font-size: 22px;
+  left: 0px;
+  top: 10px;
+  text-align: -webkit-center;
+  visibility: hidden;
+}
 button {
     background-color: #9999ff;
     border: 5px solid #cc6666;
