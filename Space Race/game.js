@@ -1,5 +1,5 @@
 var intro = document.getElementById("go");
-var redButton = document.getElementById("redalertmsg");
+var redButton = document.getElementById("redmsg");
 intro.onclick = goScotty;
 redButton.onlick = goGreen;
 
