@@ -1,4 +1,4 @@
-x = document.getElementById("borgTheme"); 
+
 var intro = document.getElementById("go");
 var redButton = document.getElementById("redmsg");
 var greenButton = document.getElementById("greenmsg");
@@ -36,5 +36,6 @@ function goGame() {
   document.getElementById("warpcore").style.visibility = "visible";
 }
 function playAudio() { 
+  x = document.getElementById("borgTheme"); 
     x.play(); 
 } 
