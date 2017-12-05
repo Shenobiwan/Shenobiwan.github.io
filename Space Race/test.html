@@ -38,13 +38,13 @@ canvas {
 </div>
 <div class="backgroundwork">
      <h1 id="headline">PICARD HAS BEEN TAKEN!!!</h1>
-  <img id="picard" class="savePicard" src="https://Shenobiwan.github.io/Space Race/picardcapture.jpg" />
+  <img id="picard" class="savePicard" src="picardcapture.jpg" />
    
     <p id="introText">Liam Neeson warned us this would happen. Picard is gone and the Borg Queen has plans to assimilate us all. <br><br>   
         Your mission: Save Picard and get in position before the Borg fleet can utilize their transwarp portals to get to Earth. 
   </p>
  <div id="redalertmsg">
-    <img src="https://Shenobiwan.github.io/Space Race/red.gif" id="red"><p id="redmsg" onclick ="goGreen()">
+    <img src="red.gif" id="red"><p id="redmsg" onclick ="goGreen()">
 Everyone to your posts, prepare for warp. <br><br>
 Click the alert to change our condition and warn other ships to stay away. We are on our own.</p>
     </div>
@@ -61,10 +61,10 @@ var picardAbducted;
 
 function startGame() {
 
- myObstacle = new component(80, 1000, "http://Shenobiwan.github.io/Space Race/finish-line.png", 950, 0, "image"); 
-    myGamePiece = new component(216, 133, "https://Shenobiwan.github.io/Space Race/enterprisesmall.png", 10, 60, "image");
-    myGamePiece2 = new component(216, 133, "https://Shenobiwan.github.io/Space Race/borgshipsmall.png", 70, 250, "image");
-    myBackground = new component(1920, 1080, "http://thewallpaper.co/wp-content/uploads/2016/10/Free-space-backgrounds-pictures-desktop-download-high-definiton-wallpapers-desktop-images-windows-10-backgrounds-colourful-4k-download-wallpapers-hi-res-quality-images-1920x1080.jpg", 0, 0, "background");
+ myObstacle = new component(80, 1000, "finish-line.png", 950, 0, "image"); 
+    myGamePiece = new component(216, 133, "enterprisesmall.png", 10, 60, "image");
+    myGamePiece2 = new component(216, 133, "borgshipsmall.png", 70, 250, "image");
+    myBackground = new component(1920, 1080, "spacerace.png", 0, 0, "background");
     myGameArea.start();
 }
 
@@ -145,14 +145,14 @@ function component(width, height, color, x, y, type) {
 function updateGameArea() {
 picardAbducted.update();
 if (myGamePiece.crashWith(myObstacle)) {
-       win = new component(1000, 400, "https://Shenobiwan.github.io/Space Race/youwin.jpg", 0, 0, "image");
+       win = new component(1000, 400, "youwin.jpg", 0, 0, "image");
        win.onload = function () {win.update();};
        ctx.font = "bold 30px monospace";
 	   ctx.fillText("You can't begin to imagine",10,25);
        ctx.fillText("the life you denied yourself...",30,60);
        myGameArea.stop();
       } else if (myGamePiece2.crashWith(myObstacle)) {
-       lose = new component(1000, 400, "https://Shenobiwan.github.io/Space Race/youlost.jpg", 0, 0, "image");
+       lose = new component(1000, 400, "youlost.jpg", 0, 0, "image");
        lose.update();
        ctx.font = "bold 30px monospace";
        ctx.fillStyle = "white";
@@ -187,7 +187,7 @@ function clearmove() {
 </script>
 	
 	 <div id="greenalertmsg">
-    <img src="https://Shenobiwan.github.io/Space Race/green.gif" id="green"><p id="greenmsg" onclick ="startGame()" >
+    <img src="green.gif" id="green"><p id="greenmsg" onclick ="startGame()" >
 Condition Green in place. <br><br>
 Beat the Borg in the race to the rendezvou and prep the boarding team.</p>
     </div>
