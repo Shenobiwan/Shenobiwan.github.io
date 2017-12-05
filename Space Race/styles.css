@@ -23,6 +23,12 @@
   top: 480px;
   z-index: 4;
 }
+#warpcore {
+  position: absolute;
+  left: 440px;
+  top: 670px;
+  visibility: hidden;
+}
 
 .savePicard {
   height: 200px;
