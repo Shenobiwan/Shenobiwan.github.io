@@ -1,8 +1,9 @@
 var intro = document.getElementById("go");
 var redButton = document.getElementById("redmsg");
+var greenButton = document.getElementById("greenmsg");
 intro.onclick = goScotty;
 redButton.onlick = goGreen;
-
+greenButton.onlick = goGame;
 function goScotty() {
   document.getElementById("picard").style.visibility = "hidden";
   document.getElementById("introText").style.visibility = "hidden";
@@ -22,5 +23,11 @@ function goGreen() {
    document.getElementById("green").style.visibility = "visible";
   document.getElementById("greenmsg").style.visibility = "visible";
   document.getElementById("greenalertmsg").style.visibility = "visible";
+  
+}
+function goGame() {
+  document.getElementById("green").style.visibility = "hidden";
+  document.getElementById("greenmsg").style.visibility = "hidden";
+  document.getElementById("greenalertmsg").style.visibility = "hidden";
   document.getElementById("warpcore").style.visibility = "visible";
 }
