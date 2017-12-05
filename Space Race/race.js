@@ -17,7 +17,7 @@ function startGame() {
 var myGameArea = {
     canvas : document.createElement("canvas"),
     start : function() {
-	      this.parent('storyframe'); //TRY TO MAKE THIS WORK OR REMOVE IT
+	      //this.parent('storyframe'); //TRY TO MAKE THIS WORK OR REMOVE IT
         this.canvas.width = 1000;
         this.canvas.height = 500;
         this.context = this.canvas.getContext("2d");
