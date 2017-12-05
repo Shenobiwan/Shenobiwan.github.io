@@ -100,6 +100,8 @@ if (myGamePiece.crashWith(myObstacle)) {
        ctx.fillStyle = "white";
        ctx.fillText(" YOU'VE WON!",280,470);
        myGameArea.stop();
+       myGameArea.clear();
+       myGameArea.start();
       } else if (myGamePiece2.crashWith(myObstacle)) {
        lose.update();
        ctx.font = "bold 30px monospace";
