@@ -10,7 +10,7 @@ function startGame() {
  myObstacle = new component(80, 1000, "finish-line.png", 950, 0, "image"); 
     myGamePiece = new component(216, 133, "enterprisesmall.png", 10, 60, "image");
     myGamePiece2 = new component(216, 133, "borgshipsmall.png", 70, 250, "image");
-    myBackground = new component(1920, 1080, "space.png", 0, 0, "background");
+    myBackground = new component(1920, 1080, "spacewallpaper.jpg", 0, 0, "background");
     myGameArea.start();
 }
 
