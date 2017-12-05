@@ -3,7 +3,7 @@ var intro = document.getElementById("go");
 var redButton = document.getElementById("redmsg");
 var greenButton = document.getElementById("greenmsg");
 intro.onclick = goScotty;
-redButton.onlick = goGreen;
+redButton.onclick = goGreen;
 greenButton.addEventListener("click", function() {
   goGame(); 
   startGame();
