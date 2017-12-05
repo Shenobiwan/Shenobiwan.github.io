@@ -99,9 +99,11 @@ if (myGamePiece.crashWith(myObstacle)) {
        ctx.font = "bold 60px monospace";
        ctx.fillStyle = "white";
        ctx.fillText(" YOU'VE WON!",280,470);
-       myGameArea.stop();
-       myGameArea.clear();
-       myGameArea.start();
+       myGameArea.stop(); }
+         if (myGameArea.stop) {
+          document.getElementById("warpcore).innerHTML = "PLAY AGAIN";
+          myGameArea.clear();
+          startGame();
       } else if (myGamePiece2.crashWith(myObstacle)) {
        lose.update();
        ctx.font = "bold 30px monospace";
