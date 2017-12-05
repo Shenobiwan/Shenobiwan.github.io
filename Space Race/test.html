@@ -143,7 +143,6 @@ function component(width, height, color, x, y, type) {
 }
 
 function updateGameArea() {
-picardAbducted.update();
 if (myGamePiece.crashWith(myObstacle)) {
        win = new component(1000, 400, "youwin.jpg", 0, 0, "image");
        win.onload = function () {win.update();};
