@@ -105,7 +105,7 @@ if (myGamePiece.crashWith(myObstacle)) {
          // play.innerHTML = "PLAY AGAIN";
          // play.addEventListener("click", function () {
          //    startGame();
-          }
+          //});
          // if(startGame) {
           // play.innerHTML = "TINKER WITH THE WARP CORE";                      
       } else if (myGamePiece2.crashWith(myObstacle)) {
