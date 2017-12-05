@@ -96,6 +96,9 @@ if (myGamePiece.crashWith(myObstacle)) {
        ctx.font = "bold 30px monospace";
        ctx.fillText("You can't begin to imagine",10,25);
        ctx.fillText("the life you denied yourself...",30,60);
+       ctx.font = "bold 60px monospace";
+       ctx.fillStyle = "white";
+       ctx.fillText(" YOU'VE WON!",280,470);
        myGameArea.stop();
       } else if (myGamePiece2.crashWith(myObstacle)) {
        lose.update();
