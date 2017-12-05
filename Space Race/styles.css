@@ -43,7 +43,7 @@ canvas {
 }
 #replay {
   position: absolute;
-  left: 550px;
+  left: 575px;
   top: 750px;
   visibility: hidden;
 }
