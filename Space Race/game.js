@@ -20,6 +20,6 @@ function goGreen() {
   document.getElementById("redmsg").style.visibility = "hidden";
     document.getElementById("redalertmsg").style.visibility = "hidden";
    document.getElementById("green").style.visibility = "visible";
-  document.getElementbyId("greenmsg").style.visibility = "visible";
-  document.getElementbyId("greenalertmsg").style.visibility = "visible";
+  document.getElementById("greenmsg").style.visibility = "visible";
+  document.getElementById("greenalertmsg").style.visibility = "visible";
 }
