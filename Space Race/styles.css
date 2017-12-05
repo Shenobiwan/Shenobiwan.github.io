@@ -58,7 +58,7 @@ p {
   height: 200px;
   width: 300px
   position: relative;
-  left: 200px;
+  left: 75px;
   top: 150px;
   visibility: hidden;
 }
@@ -66,7 +66,7 @@ p {
   height: 200px;
   width: 300px
   position: relative;
-  left: 200px;
+  left: 75px;
   top: 150px;
   visibility: hidden;
 }
@@ -78,7 +78,7 @@ p {
   height: 200px;
   width: 650px;
   position: absolute;
-  left: 300px;
+  left: 175px;
   top: 150px;
   visibility: hidden;
 }
@@ -90,7 +90,7 @@ p {
   height: 200px;
   width: 650px;
   position: absolute;
-  left: 300px;
+  left: 175px;
   top: 150px;
   visibility: hidden;
 }
