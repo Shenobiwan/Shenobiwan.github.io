@@ -1,7 +1,7 @@
 var intro = document.getElementById("go");
 var redButton = document.getElementById("redalertmsg");
 intro.onclick = goScotty;
-redButton.onlick = 
+redButton.onlick = goGreen;
 
 function goScotty() {
   document.getElementById("picard").style.visibility = "hidden";
@@ -22,3 +22,4 @@ function goGreen() {
    document.getElementById("green").style.visibility = "visible";
   document.getElementbyId("greenmsg").style.visibility = "visible";
   document.getElementbyId("greenalertmsg").style.visibility = "visible";
+}
