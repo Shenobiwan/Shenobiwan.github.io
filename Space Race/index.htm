@@ -1,17 +1,13 @@
-<!doctype html>
-
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>Race to Save Picard</title>
-    <meta name="keyword" content="Star Trek, Borg, Enterprise, Picard"/>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-   
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-</head>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="styles.css">
+  
 <body>
-    <div class="backgroundtext">
+  
+</head>
+    <div id="storyframe" class="backgroundtext">
         <p id="bodytitle">THE RACE THROUGH SPACE TO SAVE PICARD</p>
     </div>
 <div class="startButton">
@@ -20,25 +16,42 @@
   </button>
        
 </div>
+	 <script src="race.js"></script> 
 <div class="backgroundwork">
      <h1 id="headline">PICARD HAS BEEN TAKEN!!!</h1>
-  <img id="picard" class="savePicard" src="https://Shenobiwan.github.io/Space Race/picardcapture.jpg" />
+  <img id="picard" class="savePicard" src="picardcapture.jpg" />
    
     <p id="introText">Liam Neeson warned us this would happen. Picard is gone and the Borg Queen has plans to assimilate us all. <br><br>   
         Your mission: Save Picard and get in position before the Borg fleet can utilize their transwarp portals to get to Earth. 
   </p>
-  <div id="lane1">
-    <img id="borg" src="https://Shenobiwan.github.io/Space Race/borgshipsmall.png" class="borg" />
-  </div>
-  <div id="lane2">
-    <img id="enterprise" src="https://Shenobiwan.github.io/Space Race/enterprisesmall.png" class="enterprise" />
-  </div>
  <div id="redalertmsg">
-    <img src="https://Shenobiwan.github.io/Space Race/red.gif" id="red"><p id="redmsg">
-Everyone to your posts, prepare for battle. <br><br>
+    <img src="red.gif" id="red"><p id="redmsg">
+Everyone to your posts, prepare for warp. <br><br>
 Click the alert to change our condition and warn other ships to stay away. We are on our own.</p>
-
+    </div>
+	
+	 <div id="greenalertmsg">
+    <img src="green.gif" id="green"><p id="greenmsg" onclick="playAudio()">
+Condition Green in place. <br><br>
+Beat the Borg in the race to the rendezvou and prep the boarding team.</p>
     </div>
 </div>
     <script src="game.js"></script> 
+
+<div style="text-align:center;width:480px;">
+
+<button id="warpcore" onclick="move('right')">TINKER WITH THE WARP CORE</button><br><br>
+<button id="replay" onclick="startGame(); playAudio();">REPLAY</button><br><br>
+
+</div>
+<audio id="introsong" autoplay>
+  <source src="Tobecontinued.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<audio id="borgTheme">
+  <source src="Borg Theme.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+	
 </body>
+</html>
